@@ -1,9 +1,8 @@
-import Home from "./pages/Home";
-import Room from "./pages/Room";
+import { RouterProvider } from "react-router-dom";
+import { routes } from "./routes/routes";
 
 function App() {
-  // return <Home />;
-  return <Room/>
+ return <RouterProvider router={routes} />;
 }
 
 export default App;

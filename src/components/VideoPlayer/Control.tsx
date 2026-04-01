@@ -17,7 +17,7 @@ const Control: React.FC<ControlsProps> = () => {
   };
 
   return (
-    <div className="relative w-fit bottom-8 left-1/2 -translate-y-1/2 -translate-x-1/2 z-100 flex gap-4 bg-linear-to-br from-white/10 to-white/5 backdrop-blur-md border border-white/20 shadow-lg p-2 rounded-3xl">
+    <div className="absolute w-fit bottom-1 left-1/2  -translate-x-1/2 z-100 flex gap-4 bg-linear-to-br from-white/10 to-white/5 backdrop-blur-md border border-white/20 shadow-lg p-2 rounded-3xl">
       
       {/* Mic Button */}
       <button
